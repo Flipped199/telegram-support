@@ -1,0 +1,11 @@
+bot_token = ""
+
+admin = []
+
+group_id = 0
+
+debug = false
+
+[proxy]
+url = "" # 由于go url.Parse解析比较宽松，因此可能输入了错误的URL依旧不会报错，但是放心，既然你输入了错误的代理地址，那么肯定是无法连接Telegram的，依旧会Fatal
+
