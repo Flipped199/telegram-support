@@ -27,5 +27,5 @@ Telegram Support Bot
 
 ### Docker
 ```shell
-docker run -d --name telegram-supprot-bot -v $PWD/config.toml:/app/conf/config.toml flipped199/telegram-support-bot:latest
+docker run -d --name telegram-supprot-bot -v $PWD/config.toml:/app/conf/config.toml -v $PWD/data:/app/data flipped199/telegram-support-bot:latest
 ```
