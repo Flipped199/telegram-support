@@ -5,7 +5,6 @@ WORKDIR /app
 COPY go.mod ./
 RUN go mod tidy
 
-RUN #apt-get update && apt-get install -y gcc libc6-dev
 RUN apk add --no-cache --update build-base
 
 COPY . .
