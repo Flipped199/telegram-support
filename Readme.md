@@ -24,3 +24,8 @@ Telegram Support Bot
 ~~`/unban # 解除封禁`~~
   
 > 当回复消息时，引用了一条被删除的消息，bot将直接发送该消息到目标chat。
+
+### Docker
+```shell
+docker run -d --name telegram-supprot-bot -v $PWD/config.toml:/app/conf/config.toml flipped199/telegram-support-bot:latest
+```
